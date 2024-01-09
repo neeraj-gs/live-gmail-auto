@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import { useEffect, useRef } from 'react';
 import TypeWriterTitle from "./TypeWriterTitle";
 
@@ -39,7 +38,7 @@ const Progress = () => {
         height={340} // Set height as per your requirement
         className="mt-4 shadow-lg"
       >
-        <source src="/CoverMe.mp4" type="video/mp4" />
+        <source src="/" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

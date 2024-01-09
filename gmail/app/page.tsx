@@ -1,3 +1,4 @@
+"use client"
 import Progress from "@/components/Progress";
 import Image from "next/image";
 import logo from '../public/favicon.png'
